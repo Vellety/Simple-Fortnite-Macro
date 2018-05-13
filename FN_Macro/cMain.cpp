@@ -45,6 +45,7 @@ int main()
 
 	SetConsoleTitle(&cTitle[0]);
 
+}
 	// Begin actual app
 	std::cout << "[~] Reading cfg file.." << std::endl;
 	while (!bRead)
@@ -80,10 +81,10 @@ int main()
 	{
 		std::cout << "[+] CFG file was read and valid keys were found!" << std::endl;
 		std::cout << "(dg-key=" << iDGValue << ", first-weapon=" << iDGSleep << "ms, second-weapon=" << iDGSleep2 << "ms)\n" << std::endl;
-		
-		std::cout << "Macro is now running, have fun! <3" << std::endl; // Announce victory
-		std::cout << "Press 'END' key to exit app properly.\n" << std::endl;  // Inform user of proper way to exit the application.
 	}
+
+	std::cout << "Macro is now running, have fun! <3" << std::endl; // Announce victory
+	std::cout << "Press 'END' key to exit app properly.\n" << std::endl;  // Inform user of proper way to exit the application.
 	while (!bExit)
 	{
 		// Macro 1

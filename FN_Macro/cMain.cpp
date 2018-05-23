@@ -45,7 +45,6 @@ int main()
 
 	SetConsoleTitle(&cTitle[0]);
 
-}
 	// Begin actual app
 	std::cout << "[~] Reading cfg file.." << std::endl;
 	while (!bRead)
